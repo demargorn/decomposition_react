@@ -1,0 +1,88 @@
+* {
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.page {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1440px;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   gap: 2%;
+   margin-bottom: 30px;
+}
+
+.search-input {
+   position: relative;
+   width: 60%;
+   margin-bottom: 25px;
+}
+
+.logo-input {
+   position: absolute;
+   width: 100px;
+   left: -110px;
+   top: 25px;
+}
+
+.adv-image {
+   width: 860px;
+   height: 120px;
+   margin-bottom: 30px;
+}
+
+.widgets-bottom {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   grid-column-gap: 2px;
+   grid-row-gap: 2px;
+}
+
+.widget {
+   display: flex;
+   flex-direction: column;
+   width: 290px;
+   padding: 5px;
+}
+
+.widget-title a {
+   color: #0b58b4;
+   text-decoration: none;
+}
+
+.widget-title a:hover {
+   text-decoration: underline;
+}
+
+.widget-map_item,
+.widget-ether-list_item a,
+.widget-visited-list_item a,
+.widget-tv-list_item a {
+   color: black;
+   font-size: 18px;
+   text-decoration: none;
+}
+
+.widget-map_item:hover,
+.widget-ether-list_item a:hover,
+.widget-visited-list_item a:hover,
+.widget-tv-list_item a:hover {
+   color: tomato;
+   text-decoration: underline;
+}
+
+.widget-visited-list,
+.widget-ether-list,
+.widget-tv-list {
+   list-style: none;
+   padding: 0;
+}

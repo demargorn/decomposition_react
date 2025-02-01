@@ -1,0 +1,30 @@
+.aside {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+}
+
+.logo {
+   width: 80px;
+   height: 80px;
+}
+
+.title a {
+   color: #0b58b4;
+   text-decoration: none;
+}
+
+.title a:hover {
+   text-decoration: underline;
+}
+
+.text a {
+   font-size: 18px;
+   color: black;
+   text-decoration: none;
+}
+
+.text a:hover {
+   color: tomato;
+   text-decoration: underline;
+}

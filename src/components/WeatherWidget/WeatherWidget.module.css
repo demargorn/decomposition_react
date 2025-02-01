@@ -1,0 +1,22 @@
+.container {
+   display: flex;
+   gap: 10px;
+}
+
+.icon {
+   width: 60px;
+   height: 60px;
+}
+
+.main-temperature {
+   display: flex;
+   align-items: center;
+   font-size: 26px;
+   text-align: center;
+}
+
+.span-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}

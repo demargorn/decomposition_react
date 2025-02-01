@@ -1,0 +1,31 @@
+.headling {
+   width: 80%;
+}
+
+.title {
+   font-size: 24px;
+}
+
+.title a {
+   color: rgb(21, 99, 189);
+   text-decoration: none;
+}
+
+.title a:hover {
+   text-decoration: underline;
+}
+
+.news-list {
+   font-size: 18px;
+   line-height: 1.5rem;
+}
+
+.news-list a {
+   color: black;
+   text-decoration: none;
+}
+
+.news-list a:hover {
+   color: tomato;
+   text-decoration: underline;
+}
